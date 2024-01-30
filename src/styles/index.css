@@ -1,0 +1,41 @@
+.container{
+    background-color: #f9f9f9;
+    width: 50%;
+
+}
+.title{
+    color: #ebd8d9;
+    text-align: center;
+    margin-top: 100px ;
+}
+input{
+    border: none;
+    width: 100%;
+}
+ul{
+    width: 40%;
+    margin: auto;
+}
+.items{
+    text-align: center;
+    margin-top: 10px;
+    color: #042f66;
+}
+.li-c{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: #fff;
+    border: none;
+    color: rgb(248, 108, 108);
+}
+.li-c:hover button{   
+    opacity: 1;
+    background-color: #cce7e8 ;
+}
+.li-c:hover{
+    background-color: #cce7e8 ;
+}
